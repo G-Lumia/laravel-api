@@ -50,7 +50,7 @@ class ProjectController extends Controller
         $newProject = Project::create($form_data);
 
         if ($request->has('technologies')) {
-            $project->technologies()->attach($request->technologies);
+            $newProject->technologies()->attach($request->technologies);
         }
 
         return redirect()->route('admin.projects.index' , $newProject->slug)->with('message', "The project {$newProject->name} saved with success");
