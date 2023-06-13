@@ -22,8 +22,7 @@ return [
         [
             "image" => "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4F1hK?ver=f476",
             "name" => "Game-Creator",
-            "link" => "https://github.com/Dan848/game-creator",
-            "type_id" => "6"
+            "link" => "https://github.com/Dan848/game-creator"
         ]
     ]
 ];
